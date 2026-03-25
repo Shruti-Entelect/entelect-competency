@@ -1,2 +1,2 @@
 # TFO-POC
-Digital Ppoduct shopping app
+Digital Product shopping app
