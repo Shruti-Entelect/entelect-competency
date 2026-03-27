@@ -1,18 +1,10 @@
-import { Text, StyleSheet } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { NavigationContainer } from '@react-navigation/native';
+import AppNavigator from './src/navigation/AppNavigator';
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      <Text>Hello Shruti 🚀</Text>
-    </SafeAreaView>
+    <NavigationContainer>
+      <AppNavigator />
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
