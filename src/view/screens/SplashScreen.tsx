@@ -6,17 +6,17 @@ export default function SplashScreen() {
 
   return (
     <ImageBackground
-      source={require('../../../assets/splash.jpg')}
+      source={require('../../../assets/splash.png')}
       style={styles.container}
       resizeMode="cover"
     >
-      <View style={styles.centerContent}>
+      {/* <View style={styles.centerContent}>
         <Image
           source={require('../../../assets/unionWhite.png')}
           style={styles.logo}
         />
         <Text style={styles.text}>InsureTechGuard</Text>
-      </View>
+      </View> */}
     </ImageBackground>
   );
 }

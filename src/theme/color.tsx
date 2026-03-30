@@ -1,4 +1,4 @@
-export const COLORS = {
+export const Colors = {
   primary: '#4A90E2',
   secondary: '#50E3C2',
   background: '#FFFFFF',
@@ -6,5 +6,7 @@ export const COLORS = {
   textSecondary: '#777777',
   error: '#FF3B30',
   darkBackgroound: '#1C2435',
+  brandblue:'#1AAFDE',
+  buttonGradientPrimary: ['#0B5E75', '#12A4C6'],
 
 };
